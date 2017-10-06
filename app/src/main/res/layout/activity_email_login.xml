@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.unistudent.app.unistudentappv1.EmailLoginActivity">
+
+    <EditText
+        android:id="@+id/emial_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email ..."/>
+    <EditText
+        android:layout_below="@id/emial_field"
+        android:id="@+id/password_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password ..."/>
+    <Button
+        android:layout_below="@id/password_field"
+        android:id="@+id/login_email_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/email_option_button"
+        android:text="Sign In"/>
+</RelativeLayout>
